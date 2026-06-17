@@ -43,10 +43,23 @@ int main()
     printf("a*b=%f\n",a<=b);
     printf("a/b=%f\n",a>=b);
 }
-//a+b=11.977928
-//a-b=11.977928
-//a*b=11.977928
-//a/b=11.977928
+//output
+//a+b=1.000000
+//a-b=0.000000
+//a*b=1.000000
+//a/b=1.000000
+{
+int a=60;
+int b=60;
+//logical operators
+    printf("a&&b=%d\n",a&&b);
+    printf("a||b=%d\n",a||b);
+    printf("!a=%d\n",!a);
+}
+//output
+//a&&b=1
+//a||b=1
+//!a=0
 
     return 0;
 }
