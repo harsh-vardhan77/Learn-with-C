@@ -8,7 +8,7 @@ int main()
     printf("the value of a is %d, and the value of b is %f\n", a, b);
     
     // Example 2: Formatted float output (8 width, 7 decimal places)
-    printf("Formatted: %8.7f\n", b);
+    printf("%8.7f\n", b);
     
     return 0;
 }
