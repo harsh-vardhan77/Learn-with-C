@@ -55,6 +55,20 @@ int main() {
 //27
 //28
 //29
+// for loop
+{
+int i;
+    for(i=0; i<5; i++){
+        printf("%d\n", i);
+    }
 
+}
+//output:
+//enter a number: 5 
+//0
+//1     
+//2
+//3
+//4
     return 0;
 }
